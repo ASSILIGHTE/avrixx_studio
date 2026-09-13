@@ -1405,7 +1405,39 @@ img {
   gap: 1rem;
 }
 
-/* Mobile Responsive Adjustments */
+/* ==========================================================================
+   Comprehensive Multi-Device Responsive System (All Viewports & Screens)
+   ========================================================================== */
+
+.btn-text-short {
+  display: none;
+}
+
+.btn-text-full {
+  display: inline;
+}
+
+/* 1. Large Desktop / 4K Displays (> 1400px) */
+@media (min-width: 1401px) {
+  .container {
+    max-width: 1380px;
+  }
+
+  .templates-grid {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* 2. Standard Desktop / Laptops (1025px - 1400px) */
+@media (min-width: 1025px) and (max-width: 1400px) {
+  .templates-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+  }
+}
+
+/* 3. Laptops & Landscape Tablets (992px - 1024px) */
 @media (max-width: 1024px) {
   .hero-grid {
     grid-template-columns: 1fr;
@@ -1423,7 +1455,7 @@ img {
   }
 
   .collage-container {
-    height: 380px;
+    height: 360px;
     max-width: 480px;
     margin: 0 auto;
   }
@@ -1439,14 +1471,44 @@ img {
   .footer-grid {
     grid-template-columns: 1fr 1fr;
   }
+
+  .templates-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+  }
 }
 
+/* 4. Medium Tablets & iPad Portrait (769px - 991px) */
+@media (max-width: 991px) {
+  .templates-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .hero-title {
+    font-size: 3.2rem;
+  }
+}
+
+/* 5. Mobile & Small Tablets (< 768px) */
 @media (max-width: 768px) {
   .btn-text-desktop {
     display: none;
   }
 
   .btn-text-mobile {
+    display: inline;
+  }
+
+  .btn-text-full {
+    display: none;
+  }
+
+  .btn-text-short {
     display: inline;
   }
 
@@ -1537,7 +1599,7 @@ img {
   }
 
   .hero-title {
-    font-size: clamp(2.1rem, 7.5vw, 2.75rem);
+    font-size: clamp(2rem, 7.5vw, 2.75rem);
     line-height: 1.18;
   }
 
@@ -1674,7 +1736,9 @@ img {
   }
 
   .card-preview-wrapper {
-    height: 135px;
+    aspect-ratio: 16 / 10;
+    height: auto;
+    min-height: 110px;
   }
 
   .card-badge {
@@ -1709,19 +1773,18 @@ img {
   }
 
   .card-actions {
-    grid-template-columns: 1fr;
-    gap: 0.4rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0.35rem;
   }
 
   .btn-card-preview, .btn-card-details {
-    padding: 0.5rem 0.4rem;
+    padding: 0.5rem 0.2rem;
     font-size: 0.75rem;
     width: 100%;
     border-radius: var(--radius-sm);
-  }
-
-  .btn-card-preview:active, .btn-card-details:active {
-    transform: scale(0.97);
+    justify-content: center;
+    white-space: nowrap;
   }
 
   .features-grid {
@@ -1851,52 +1914,75 @@ img {
   }
 }
 
+/* 6. Standard & Small HP Smartphones (< 480px) */
 @media (max-width: 480px) {
-  .templates-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 0.65rem;
+  .container {
+    padding: 0 0.85rem;
   }
 
-  .card-preview-wrapper {
-    height: 120px;
+  .templates-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0.55rem;
   }
 
   .card-body {
-    padding: 0.75rem 0.5rem;
+    padding: 0.65rem 0.45rem;
   }
 
   .card-title {
     font-size: 0.88rem;
+    margin-bottom: 0.25rem;
   }
 
   .card-desc {
     font-size: 0.72rem;
-    margin-bottom: 0.6rem;
+    margin-bottom: 0.5rem;
+    -webkit-line-clamp: 2;
   }
 
   .btn-card-preview, .btn-card-details {
-    padding: 0.45rem 0.25rem;
-    font-size: 0.7rem;
+    padding: 0.45rem 0.15rem;
+    font-size: 0.72rem;
   }
 
   .floating-wa-btn {
     bottom: 1.25rem;
-    right: 1rem;
-    padding: 0.65rem 1rem;
+    right: 0.85rem;
+    padding: 0.6rem 0.95rem;
   }
   
   .wa-tooltip {
-    font-size: 0.8rem;
+    font-size: 0.78rem;
   }
 
   .nav-logo-text-wrapper {
-    width: 115px;
-    font-size: 1.25rem;
+    width: 110px;
+    font-size: 1.2rem;
   }
 
   .logo-accent {
     width: 30px;
     height: 30px;
     font-size: 0.85rem;
+  }
+}
+
+/* 7. Extra Small Smartphones (< 360px) */
+@media (max-width: 360px) {
+  .templates-grid {
+    gap: 0.45rem;
+  }
+  .card-body {
+    padding: 0.5rem 0.35rem;
+  }
+  .card-title {
+    font-size: 0.82rem;
+  }
+  .card-desc {
+    font-size: 0.68rem;
+  }
+  .btn-card-preview, .btn-card-details {
+    font-size: 0.68rem;
+    padding: 0.4rem 0.1rem;
   }
 }

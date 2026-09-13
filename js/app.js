@@ -76,10 +76,12 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="card-desc">${template.description}</p>
           <div class="card-actions">
             <a href="${template.url}" target="_blank" class="btn-card-preview" rel="noopener noreferrer">
-              Lihat Demo ↗
+              <span class="btn-text-full">Lihat Demo ↗</span>
+              <span class="btn-text-short">Demo ↗</span>
             </a>
             <button class="btn-card-details" onclick="openTemplateModal('${template.id}')">
-              Detail Template
+              <span class="btn-text-full">Detail Template</span>
+              <span class="btn-text-short">Detail</span>
             </button>
           </div>
         </div>
