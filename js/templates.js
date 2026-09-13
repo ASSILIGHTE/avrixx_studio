@@ -79,6 +79,21 @@ const templatesData = [
     image: "assets/images/five_doors.png",
     featured: true,
     tags: ["5 Pintu Berurutan", "Tema Gelap Sinematik", "Buka Pintu Interaktif", "Animasi Halus", "Pengalaman Audio"]
+  },
+  {
+    id: "Long Distance Relationship",
+    name: "Long Distance Relationship",
+    category: "Long Distance Relationship",
+    description: "Website ucapan ulang tahun romantis untuk pasangan LDR dengan desain dark-red elegan, animasi lembut, dan konsep hadiah digital interaktif.",
+    url: "https://ldrhbd.vercel.app/",
+    image: "assets/images/ldr.png",
+    featured: true,
+    tags: ["Tema Dark Romantic",
+      "Ucapan Ulang Tahun LDR",
+      "Kartu Hadiah Interaktif",
+      "Animasi Hati",
+      "Efek Glow Neon",
+      "Desain Responsif",]
   }
 ];
 
