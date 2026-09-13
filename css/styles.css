@@ -698,8 +698,8 @@ img {
 /* Template Grid */
 .templates-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 2.25rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 /* Template Card */
@@ -1417,20 +1417,28 @@ img {
   display: inline;
 }
 
-/* 1. Large Desktop / 4K Displays (> 1400px) */
+/* 1. Large Desktop / 4K Displays (> 1400px Zoom Out Protection) */
 @media (min-width: 1401px) {
   .container {
-    max-width: 1380px;
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .templates-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
   }
 }
 
 /* 2. Standard Desktop / Laptops (1025px - 1400px) */
 @media (min-width: 1025px) and (max-width: 1400px) {
+  .container {
+    max-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .templates-grid {
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
