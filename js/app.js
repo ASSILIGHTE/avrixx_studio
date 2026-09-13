@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // State Management
   let currentSearchQuery = "";
-  let currentCategory = "All";
+  let currentCategory = "Semua";
 
   // 1. Render Templates
   function renderTemplates() {
@@ -39,9 +39,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Filter templates based on Search Query and Category
     const filteredTemplates = templatesData.filter(template => {
-      const matchesCategory = (currentCategory === "All") || 
+      const matchesCategory = (currentCategory === "Semua" || currentCategory === "All") || 
                               (template.category.toLowerCase() === currentCategory.toLowerCase()) ||
-                              (currentCategory === "Special Moment" && (template.category === "Interactive Surprise" || template.category === "Love" || template.category === "Memories"));
+                              (currentCategory === "Momen Spesial" && (template.category === "Kejutan" || template.category === "Cinta" || template.category === "Kenangan"));
 
       const query = currentSearchQuery.toLowerCase().trim();
       const matchesSearch = !query || 
@@ -76,10 +76,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <p class="card-desc">${template.description}</p>
           <div class="card-actions">
             <a href="${template.url}" target="_blank" class="btn-card-preview" rel="noopener noreferrer">
-              Live Preview ↗
+              Lihat Demo ↗
             </a>
             <button class="btn-card-details" onclick="openTemplateModal('${template.id}')">
-              View Details
+              Detail Template
             </button>
           </div>
         </div>
@@ -112,7 +112,7 @@ document.addEventListener('DOMContentLoaded', () => {
     chip.addEventListener('click', () => {
       categoryChips.forEach(c => c.classList.remove('active'));
       chip.classList.add('active');
-      currentCategory = chip.getAttribute('data-category') || "All";
+      currentCategory = chip.getAttribute('data-category') || "Semua";
       renderTemplates();
 
       // Smooth scroll chip into view on mobile

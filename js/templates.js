@@ -3,82 +3,82 @@ const templatesData = [
   {
     id: "our-little-memories",
     name: "Our Little Memories",
-    category: "Memories",
-    description: "A digital collection of memories and special moments featuring polaroid layouts, timeline notes, and warm audio background.",
+    category: "Kenangan",
+    description: "Koleksi kenangan dan momen spesial digital bergaya polaroid, catatan linimasa interaktif, serta musik latar yang hangat.",
     url: "https://scarpbook-gray.vercel.app/",
     image: "assets/images/our_little_memories.png",
     featured: true,
-    tags: ["Scrapbook Style", "Polaroid Photos", "Interactive Timeline", "Music Player", "Responsive"]
+    tags: ["Gaya Scrapbook", "Foto Polaroid", "Linimasa Interaktif", "Musik Latar", "Responsif HP"]
   },
   {
     id: "surprise-doll-box",
     name: "Surprise Doll Box",
-    category: "Surprise",
-    description: "A cute interactive gift experience with a surprise box inside that opens to reveal custom messages and adorable animations.",
+    category: "Kejutan",
+    description: "Pengalaman kado interaktif yang imut dengan kotak kejutan yang dapat dibuka untuk mengungkap pesan manis dan animasi menggemaskan.",
     url: "https://suprisebox.vercel.app/",
     image: "assets/images/surprise_doll_box.png",
     featured: true,
-    tags: ["3D Box Unboxing", "Cute Doll", "Pop-up Surprise", "Confetti FX", "Interactive"]
+    tags: ["Unboxing 3D", "Boneka Imut", "Kejutan Pop-Up", "Efek Konfeti", "Interaktif"]
   },
   {
     id: "a-little-birthday-story",
     name: "A Little Birthday Story",
-    category: "Birthday",
-    description: "A personal birthday story created to make someone's special day more memorable with chapters, photos, and wishes.",
+    category: "Ulang Tahun",
+    description: "Cerita ulang tahun personal yang dibuat untuk menjadikan hari spesialnya tak terlupakan dengan bab cerita, galeri foto, dan ucapan harapan.",
     url: "https://bluehbd.vercel.app/",
     image: "assets/images/birthday_story.png",
     featured: false,
-    tags: ["Birthday Storybook", "Blue Aesthetic", "Interactive Cake", "Photo Story", "Wish Card"]
+    tags: ["Buku Cerita Ultah", "Tema Biru Aesthetic", "Kue Interaktif", "Galeri Foto", "Kartu Ucapan"]
   },
   {
     id: "birthday-surprise",
     name: "Birthday Surprise",
-    category: "Birthday",
-    description: "A sweet digital birthday surprise made with love, interactive candle blowing, and customizable birthday greeting card.",
+    category: "Ulang Tahun",
+    description: "Kejutan ulang tahun digital penuh cinta dengan interaktif tiup lilin, balon melayang, dan kartu ucapan kustom.",
     url: "https://hbdproject.vercel.app/",
     image: "assets/images/birthday_surprise.png",
     featured: false,
-    tags: ["Blow Candle FX", "Balloons FX", "Personal Wish", "Cute Animations", "Sweet Theme"]
+    tags: ["Efek Tiup Lilin", "Efek Balon", "Ucapan Harapan", "Animasi Imut", "Tema Manis"]
   },
   {
     id: "khusus-untuk-kamu",
     name: "Khusus Untuk Kamu",
-    category: "Romantic",
-    description: "A personal digital surprise created especially for someone special with glowing romantic visuals and private message reveal.",
+    category: "Romantis",
+    description: "Kejutan digital personal khusus untuk orang spesial dengan visual romantis yang bercahaya dan amplop surat rahasia.",
     url: "https://1-lilac-six-73.vercel.app/",
     image: "assets/images/khusus_untuk_kamu.png",
     featured: true,
-    tags: ["Romantic Lilac", "Secret Envelope", "Heart Sparkles", "Audio BGM", "Personalized"]
+    tags: ["Tema Lilac Romantis", "Amplop Rahasia", "Efek Kilau Hati", "Musik Latar", "Personalisasi"]
   },
   {
     id: "hai-sayang",
     name: "Hai Sayang",
-    category: "Romantic",
-    description: "A cute romantic digital gift filled with sweet moments, couple memory gallery, and customizable secret love notes.",
+    category: "Romantis",
+    description: "Hadiah digital romantis yang berisi momen manis pasangan, galeri kenangan, dan catatan cinta rahasia yang dapat disesuaikan.",
     url: "https://littleworld-tan.vercel.app/",
     image: "assets/images/hai_sayang.png",
     featured: false,
-    tags: ["Love Letter", "Photo Gallery", "Floating Emojis", "Romantic Music", "Sweet Surprise"]
+    tags: ["Surrat Cinta", "Galeri Foto Pasangan", "Emoji Melayang", "Musik Romantis", "Kejutan Manis"]
   },
   {
     id: "for-my-favorite-person",
     name: "For My Favorite Person",
-    category: "Love",
-    description: "A romantic digital love gift for someone special featuring luxury dark red aesthetics, glowing heart interactive cards, and music.",
+    category: "Cinta",
+    description: "Hadiah cinta digital romantis dengan estetika merah marun mewah, kartu interaktif bentuk hati yang bercahaya, dan musik latar.",
     url: "https://favperson-mu.vercel.app/",
     image: "assets/images/favorite_person.png",
     featured: true,
-    tags: ["Luxury Crimson", "Heart Animation", "Music BGM", "Interactive Love Card", "Romantic"]
+    tags: ["Tema Merah Mewah", "Animasi Hati", "Musik Latar", "Kartu Cinta Interaktif", "Romantis"]
   },
   {
     id: "the-5-doors",
     name: "The 5 Doors",
-    category: "Interactive Surprise",
-    description: "An interactive romantic journey where every sequential door reveals something special, memories, secret messages, and surprises.",
+    category: "Kejutan",
+    description: "Perjalanan romantis interaktif di mana 5 pintu berurutan menyimpan kenangan, pesan rahasia, dan kejutan spesial.",
     url: "https://5door.vercel.app/",
     image: "assets/images/five_doors.png",
     featured: true,
-    tags: ["5 Sequential Doors", "Cinematic Dark Theme", "Interactive Unlocks", "Framer Motion Style", "Audio Experience"]
+    tags: ["5 Pintu Berurutan", "Tema Gelap Sinematik", "Buka Pintu Interaktif", "Animasi Halus", "Pengalaman Audio"]
   }
 ];
 
