@@ -33,19 +33,30 @@
       </a>
 
       <ul class="nav-menu" id="navMenu">
+        <li class="nav-menu-header">
+          <span>Navigation Menu</span>
+          <button class="nav-menu-close" id="navMenuClose" aria-label="Close Menu"><i class="fas fa-times"></i></button>
+        </li>
         <li><a href="#home" class="nav-link active">Home</a></li>
         <li><a href="#templates" class="nav-link">Templates</a></li>
-        <li><a href="#templates" class="nav-link">Categories</a></li>
         <li><a href="#how-it-works" class="nav-link">How It Works</a></li>
         <li><a href="#faq" class="nav-link">FAQ</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="mobile-menu-cta">
+          <button class="btn-primary w-full"
+            onclick="openWhatsApp('Halo AVRIXXX, saya ingin konsultasi untuk membuat website ucapan digital custom.')">
+            <i class="fab fa-whatsapp"></i>
+            <span>Create Your Greeting</span>
+          </button>
+        </li>
       </ul>
 
-      <div class="nav-actions" style="display: flex; align-items: center; gap: 1rem;">
-        <button class="btn-primary"
+      <div class="nav-actions">
+        <button class="btn-primary btn-nav-cta"
           onclick="openWhatsApp('Halo AVRIXXX, saya ingin konsultasi untuk membuat website ucapan digital custom.')">
           <i class="fab fa-whatsapp"></i>
-          <span>Create Your Greeting</span>
+          <span class="btn-text-desktop">Create Your Greeting</span>
+          <span class="btn-text-mobile">Order</span>
         </button>
         <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
           <i class="fas fa-bars"></i>
@@ -53,6 +64,9 @@
       </div>
     </div>
   </header>
+
+  <!-- Mobile Nav Overlay Backdrop -->
+  <div class="nav-backdrop" id="navBackdrop"></div>
 
   <!-- Hero Section -->
   <section class="hero" id="home">
@@ -445,6 +459,15 @@
       </div>
     </div>
   </div>
+
+  <!-- Floating WhatsApp Quick Action Button for Mobile -->
+  <a href="#" class="floating-wa-btn" id="floatingWaBtn" aria-label="Chat WhatsApp Admin"
+    onclick="openWhatsApp('Halo AVRIXXX, saya ingin berkonsultasi tentang ucapan digital via WhatsApp.'); return false;">
+    <div class="wa-icon-glow">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <span class="wa-tooltip">Konsultasi WA</span>
+  </a>
 
   <!-- JavaScript Scripts -->
   <script src="js/templates.js"></script>
