@@ -34,11 +34,24 @@ const templatesData = [
     id: "birthday-surprise",
     name: "Birthday Surprise",
     category: "Ulang Tahun",
-    description: "Kejutan ulang tahun digital penuh cinta dengan interaktif tiup lilin, balon melayang, dan kartu ucapan kustom.",
-    url: "https://hbdproject.vercel.app/",
-    image: "assets/images/birthday_surprise.png",
+    description: "Petualangan ulang tahun romantis sinematik bertema Spider-Man interaktif lengkap dengan alur misi, countdown real-time, timeline komik, galeri memori, kartu superpower, mini-game jaring laba-laba, kado rahasia, dan surat cinta typewriter.",
+    url: "https://spiderrav.vercel.app/",
+    image: "assets/images/spider.png",
     featured: false,
-    tags: ["Efek Tiup Lilin", "Efek Balon", "Ucapan Harapan", "Animasi Imut", "Tema Manis"]
+    tags: [ "Tema Spider-Man Sinematik",
+    "Alur Misi Interaktif",
+    "Countdown Real-time",
+    "Timeline Komik & Vault Memori",]
+  },
+  {
+    id: "Spider-Man Birthday Surprise",
+    name: "Spider-Man Birthday Surprise",
+    category: "Ulang Tahun",
+    description: "Perjalanan romantis interaktif di mana 5 pintu berurutan menyimpan kenangan, pesan rahasia, dan kejutan spesial.",
+    url: "https://5door.vercel.app/",
+    image: "assets/images/five_doors.png",
+    featured: true,
+    tags: ["5 Pintu Berurutan", "Tema Gelap Sinematik", "Buka Pintu Interaktif", "Animasi Halus", "Pengalaman Audio"]
   },
   {
     id: "khusus-untuk-kamu",
