@@ -31,27 +31,17 @@ const templatesData = [
     tags: ["Buku Cerita Ultah", "Tema Biru Aesthetic", "Kue Interaktif", "Galeri Foto", "Kartu Ucapan"]
   },
   {
-    id: "birthday-surprise",
-    name: "Birthday Surprise",
+    id: "Spider-Man Birthday Surpris",
+    name: "Spider-Man Birthday Surpris",
     category: "Ulang Tahun",
     description: "Petualangan ulang tahun romantis sinematik bertema Spider-Man interaktif lengkap dengan alur misi, countdown real-time, timeline komik, galeri memori, kartu superpower, mini-game jaring laba-laba, kado rahasia, dan surat cinta typewriter.",
     url: "https://spiderrav.vercel.app/",
-    image: "assets/images/spider.png",
+    image: "assets/images/spider.kpeg",
     featured: false,
     tags: [ "Tema Spider-Man Sinematik",
     "Alur Misi Interaktif",
     "Countdown Real-time",
     "Timeline Komik & Vault Memori",]
-  },
-  {
-    id: "Spider-Man Birthday Surprise",
-    name: "Spider-Man Birthday Surprise",
-    category: "Ulang Tahun",
-    description: "Perjalanan romantis interaktif di mana 5 pintu berurutan menyimpan kenangan, pesan rahasia, dan kejutan spesial.",
-    url: "https://5door.vercel.app/",
-    image: "assets/images/five_doors.png",
-    featured: true,
-    tags: ["5 Pintu Berurutan", "Tema Gelap Sinematik", "Buka Pintu Interaktif", "Animasi Halus", "Pengalaman Audio"]
   },
   {
     id: "khusus-untuk-kamu",
