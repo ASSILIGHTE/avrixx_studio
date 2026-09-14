@@ -36,7 +36,7 @@ const templatesData = [
     category: "Ulang Tahun",
     description: "Petualangan ulang tahun romantis sinematik bertema Spider-Man interaktif lengkap dengan alur misi, countdown real-time, timeline komik, galeri memori, kartu superpower, mini-game jaring laba-laba, kado rahasia, dan surat cinta typewriter.",
     url: "https://spiderrav.vercel.app/",
-    image: "assets/images/spider.kpeg",
+    image: "assets/images/spider.jpeg",
     featured: false,
     tags: [ "Tema Spider-Man Sinematik",
     "Alur Misi Interaktif",
