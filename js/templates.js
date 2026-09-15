@@ -59,16 +59,6 @@ const templatesData = [
     "Galeri Kenangan",
     "Surat Cinta & Musik"]
   },
-  {
-    id: "Flower",
-    name: "Flower",
-    category: "Romantis",
-    description: "Taman bunga interaktif bertema dongeng peri Thumbelina dengan animasi partikel 3D, galeri kenangan bunga, buket interaktif, mode malam magis, surat cinta, dan musik latar.",
-    url: "https://flower-eight-ruddy.vercel.app/",
-    image: "assets/images/flower.png",
-    featured: false,
-    tags: ["Taman Bunga 3D", "Dongeng Thumbelina", "Buket Interaktif", "Mode Malam Sihir", "Surat Cinta & Musik"]
-  },
    {
     id: "Flower",
     name: "Flower",
