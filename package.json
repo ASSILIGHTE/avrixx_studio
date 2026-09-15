@@ -1,0 +1,20 @@
+{
+  "name": "avrixxx-digital-greeting-collection",
+  "version": "1.0.0",
+  "description": "AVRIXXX — Digital Greeting Collection showcase catalog website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 3000",
+    "start": "npx serve . -p 3000",
+    "serve": "npx serve . -p 3000"
+  },
+  "keywords": [
+    "avrixxx",
+    "digital-greeting",
+    "catalog",
+    "showcase",
+    "portfolio"
+  ],
+  "author": "AVRIXXX",
+  "license": "MIT"
+}

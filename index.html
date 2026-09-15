@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AVRIXXX — Koleksi Ucapan Digital | Website Showcase Interaktif Premium</title>
+  <meta name="description"
+    content="Pengalaman digital untuk momen-momen spesial. Kumpulan website ucapan digital yang dibuat untuk memberikan kejutan yang lebih personal, interaktif, dan berkesan.">
+  <meta name="keywords" content="website ucapan digital, kado ucapan ulang tahun, website surprise interaktif, template ucapan digital, website kado pacar, avrixxx studio">
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="AVRIXXX Studio">
+  <meta name="theme-color" content="#6366f1">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://avrixx-studio.vercel.app/">
+  <meta property="og:title" content="AVRIXXX — Koleksi Ucapan Digital | Website Showcase Interaktif">
+  <meta property="og:description" content="Pengalaman digital untuk momen-momen spesial. Kumpulan website ucapan digital interaktif, personal, dan berkesan.">
+  <meta property="og:image" content="https://avrixx-studio.vercel.app/assets/og-preview.jpg">
+  <meta property="og:site_name" content="AVRIXXX Studio">
+  <meta property="og:locale" content="id_ID">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="AVRIXXX — Koleksi Ucapan Digital">
+  <meta name="twitter:description" content="Pengalaman digital untuk momen-momen spesial. Kumpulan website ucapan digital interaktif.">
+  <meta name="twitter:image" content="https://avrixx-studio.vercel.app/assets/og-preview.jpg">
+
+  <!-- Canonical Link -->
+  <link rel="canonical" href="https://avrixx-studio.vercel.app/">
+
+  <!-- Schema.org Structured Data for Google Search -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "AVRIXXX Studio",
+    "url": "https://avrixx-studio.vercel.app/",
+    "description": "Pengalaman digital untuk momen-momen spesial. Kumpulan website ucapan digital interaktif."
+  }
+  </script>
+
+  <!-- FontAwesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <!-- Ambient Glowing Background Orbs -->
+  <div class="bg-orbs-container">
+    <div class="bg-orb bg-orb-1"></div>
+    <div class="bg-orb bg-orb-2"></div>
+    <div class="bg-orb bg-orb-3"></div>
+  </div>
+
+  <!-- Navigation Bar -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="nav-logo">
+        <div class="logo-accent"><i class="fas fa-sparkles"></i></div>
+        <div class="nav-logo-text-wrapper">
+          <span id="logoTypewriter">AVRIXXX</span><span class="logo-cursor">|</span>
+        </div>
+      </a>
+
+      <ul class="nav-menu" id="navMenu">
+        <li class="nav-menu-header">
+          <span>Menu Navigasi</span>
+          <button class="nav-menu-close" id="navMenuClose" aria-label="Tutup Menu"><i class="fas fa-times"></i></button>
+        </li>
+        <li><a href="#home" class="nav-link active">Beranda</a></li>
+        <li><a href="#templates" class="nav-link">Koleksi Template</a></li>
+        <li><a href="#how-it-works" class="nav-link">Cara Kerja</a></li>
+        <li><a href="#faq" class="nav-link">FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Kontak</a></li>
+        <li class="mobile-menu-cta">
+          <button class="btn-primary w-full"
+            onclick="openWhatsApp('Halo AVRIXXX, saya ingin konsultasi untuk membuat website ucapan digital custom.')">
+            <i class="fab fa-whatsapp"></i>
+            <span>Buat Ucapan Kamu</span>
+          </button>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <button class="btn-primary btn-nav-cta"
+          onclick="openWhatsApp('Halo AVRIXXX, saya ingin konsultasi untuk membuat website ucapan digital custom.')">
+          <i class="fab fa-whatsapp"></i>
+          <span class="btn-text-desktop">Buat Ucapan Kamu</span>
+          <span class="btn-text-mobile">Pesan</span>
+        </button>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle Navigation">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Nav Overlay Backdrop -->
+  <div class="nav-backdrop" id="navBackdrop"></div>
+
+  <!-- Hero Section -->
+  <section class="hero" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <i class="fas fa-sparkle hero-badge-icon"></i>
+          <span>KOLEKSI UCAPAN DIGITAL</span>
+        </div>
+        <h1 class="hero-title">
+          Buat Momen Spesial Mereka <br>
+          <span class="hero-title-highlight">Jauh Lebih Berkesan.</span>
+        </h1>
+        <p class="hero-desc">
+          Kumpulan website ucapan digital yang dibuat untuk memberikan kejutan yang lebih personal, interaktif, dan
+          berkesan.
+        </p>
+        <div class="hero-actions">
+          <a href="#templates" class="btn-primary">
+            <span>Jelajahi Template</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+          <a href="#how-it-works" class="btn-secondary">
+            <span>Cara Kerja</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual Collage -->
+      <div class="hero-visual">
+        <div class="collage-container">
+          <div class="collage-card collage-card-1">
+            <img src="assets/images/our_little_memories.png" alt="Our Little Memories Showcase">
+          </div>
+          <div class="collage-card collage-card-2">
+            <img src="assets/images/five_doors.png" alt="The 5 Doors Showcase">
+          </div>
+          <div class="collage-card collage-card-3">
+            <img src="assets/images/surprise_doll_box.png" alt="Surprise Doll Box Showcase">
+          </div>
+
+          <div class="hero-float-badge">
+            <div class="float-badge-icon">
+              <i class="fas fa-heart"></i>
+            </div>
+            <div class="float-badge-text">
+              <p>Desain Visual Premium</p>
+              <p>Interaktif & Responsif HP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Template Showcase & Filtering Section -->
+  <section class="templates-section" id="templates">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Pilih Momen Spesial Kamu</h2>
+        <p class="section-subtitle">Temukan desain yang paling cocok untuk menyampaikan pesan hangat dan kenangan indah.</p>
+      </div>
+
+      <!-- Search & Category Filters -->
+      <div class="filter-wrapper">
+        <div class="search-box">
+          <i class="fas fa-search search-icon"></i>
+          <input type="text" id="searchInput" class="search-input" placeholder="Cari template ucapan..." autocomplete="off">
+          <button id="searchClear" class="search-clear"><i class="fas fa-times"></i></button>
+        </div>
+
+        <div class="category-chips">
+          <button class="chip active" data-category="Semua">Semua</button>
+          <button class="chip" data-category="Ulang Tahun">Ulang Tahun</button>
+          <button class="chip" data-category="Romantis">Romantis</button>
+          <button class="chip" data-category="Cinta">Cinta</button>
+          <button class="chip" data-category="Kenangan">Kenangan</button>
+          <button class="chip" data-category="Kejutan">Kejutan</button>
+          <button class="chip" data-category="Wisuda">Wisuda</button>
+          <button class="chip" data-category="Momen Spesial">Momen Spesial</button>
+        </div>
+      </div>
+
+      <!-- Templates Dynamic Grid -->
+      <div class="templates-grid" id="templatesGrid">
+        <!-- Injected dynamically via templates.js & app.js -->
+      </div>
+
+      <!-- No Results Fallback -->
+      <div class="no-results" id="noResults">
+        <div class="no-results-icon"><i class="fas fa-folder-open"></i></div>
+        <h3 class="no-results-title">Template Tidak Ditemukan</h3>
+        <p class="no-results-desc">Coba cari dengan kata kunci lain atau pilih kategori yang berbeda.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- How It Works Section -->
+  <section class="how-section" id="how-it-works">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Cara Kerja</h2>
+        <p class="section-subtitle">Tiga langkah mudah untuk mewujudkan ucapan digital spesial kamu.</p>
+      </div>
+
+      <div class="steps-grid">
+        <div class="step-card">
+          <div class="step-number">01</div>
+          <h3 class="step-title">Pilih Template</h3>
+          <p class="step-desc">Pilih desain ucapan yang paling sesuai dengan momen spesial kamu.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">02</div>
+          <h3 class="step-title">Kustomisasi Pesan & Foto</h3>
+          <p class="step-desc">Kirimkan foto, pesan ucapan, nama, lagu, dan detail khusus kamu.</p>
+        </div>
+
+        <div class="step-card">
+          <div class="step-number">03</div>
+          <h3 class="step-title">Bagikan Momen Bahagia</h3>
+          <p class="step-desc">Website ucapan digital kamu siap dikirimkan kepada orang tersayang.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why AVRIXXX Section -->
+  <section class="why-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Lebih Dari Sekadar Ucapan</h2>
+        <p class="section-subtitle">Pengalaman ucapan interaktif yang tak terlupakan.</p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fas fa-heart"></i>
+          </div>
+          <h3 class="feature-title">♡ Personal</h3>
+          <p class="feature-desc">Setiap ucapan dapat disesuaikan dengan cerita dan kenangan kamu.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fas fa-sparkles"></i>
+          </div>
+          <h3 class="feature-title">✦ Interaktif</h3>
+          <p class="feature-desc">Memberikan pengalaman pesan yang hidup, interaktif, dan penuh kejutan.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3 class="feature-title">◌ Responsif HP</h3>
+          <p class="feature-desc">Tampil sempurna dan nyaman dibuka di smartphone (HP), tablet, maupun laptop.</p>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon-wrapper">
+            <i class="fas fa-share-alt"></i>
+          </div>
+          <h3 class="feature-title">↗ Mudah Dibagikan</h3>
+          <p class="feature-desc">Cukup bagikan satu tautan link website ke orang tersayang kapan saja.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="faq-section" id="faq">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">Pertanyaan Umum (FAQ)</h2>
+        <p class="section-subtitle">Pertanyaan umum seputar layanan ucapan digital AVRIXXX.</p>
+      </div>
+
+      <div class="faq-accordion">
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah template bisa disesuaikan?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ya, tentu! Semua teks, nama, tanggal, dan pesan dapat disesuaikan sepenuhnya sesuai dengan kebutuhan
+              momen spesial kamu.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah bisa menggunakan foto sendiri?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Tentu saja. Kamu bisa mengirimkan foto-foto kenangan terbaik kamu untuk dimasukkan ke dalam galeri,
+              polaroid, atau bagian interaktif pada template.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah bisa menambahkan pesan khusus?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sangat bisa. Kamu dapat menuliskan ucapan personal, surat rahasia, harapan ulang tahun, atau puisi khusus
+              untuk penerima.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah warna tema bisa diubah?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Ya, tema warna utama dapat disesuaikan dengan warna favorit pasangan atau penerima kejutan.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah bisa menambahkan lagu / musik latar?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Bisa! Kamu bisa memilih lagu favorit kamu atau musik latar yang paling romantis untuk melengkapi suasana
+              saat website dibuka.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah bisa pesan konsep ucapan yang berbeda?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Tentu! Kami menerima request custom concept dari awal sesuai dengan ide kreatif kamu. Cukup diskusikan
+              konsepmu melalui WhatsApp kami.</p>
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Apakah website nyaman dibuka di HP / smartphone?</span>
+            <i class="fas fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            <p>Sangat bisa! Seluruh website ucapan dirancang responsif sempurna di perangkat smartphone (iOS & Android),
+              tablet, maupun laptop/desktop.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="cta-section" id="contact">
+    <div class="container">
+      <div class="cta-box">
+        <h2 class="cta-title">Punya Konsep / Ide Sendiri?</h2>
+        <p class="cta-desc">
+          Ingin konsep ucapan yang beda dan unik? Sampaikan ide kreatif kamu dan kami buatkan website ucapan khusus untuk momen spesial kamu.
+        </p>
+        <div class="cta-actions">
+          <button class="btn-primary"
+            onclick="openWhatsApp('Halo AVRIXXX, saya punya ide konsep ucapan digital sendiri dan ingin membuat ucapan custom.')">
+            <i class="fab fa-whatsapp"></i>
+            <span>Buat Ucapan Saya</span>
+          </button>
+          <button class="btn-secondary"
+            onclick="openWhatsApp('Halo AVRIXXX, saya ingin berkonsultasi mengenai website ucapan digital.')">
+            <span>Konsultasi Gratis</span>
+            <i class="fas fa-arrow-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <div class="logo-accent"><i class="fas fa-sparkles"></i></div>
+            <span>AVRIXXX</span>
+          </a>
+          <p class="footer-tagline">"Pengalaman ucapan digital interaktif untuk momen-momen spesial."</p>
+          <div class="social-links">
+            <a href="https://wa.me/6285704925946" target="_blank" class="social-icon" aria-label="WhatsApp"><i
+                class="fab fa-whatsapp"></i></a>
+            <a href="#" target="_blank" class="social-icon" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" target="_blank" class="social-icon" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Navigasi</h4>
+          <ul class="footer-links">
+            <li><a href="#home" class="footer-link">Beranda</a></li>
+            <li><a href="#templates" class="footer-link">Koleksi Template</a></li>
+            <li><a href="#how-it-works" class="footer-link">Cara Kerja</a></li>
+            <li><a href="#faq" class="footer-link">FAQ</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Kategori</h4>
+          <ul class="footer-links">
+            <li><a href="#templates" class="footer-link">Ulang Tahun</a></li>
+            <li><a href="#templates" class="footer-link">Romantis</a></li>
+            <li><a href="#templates" class="footer-link">Cinta</a></li>
+            <li><a href="#templates" class="footer-link">Kenangan</a></li>
+            <li><a href="#templates" class="footer-link">Kejutan</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer-heading">Kontak Kami</h4>
+          <p style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 1rem;">
+            Diskusikan ide ucapan digital kamu langsung bersama kami via WhatsApp.
+          </p>
+          <button class="btn-secondary" style="padding: 0.6rem 1.2rem; font-size: 0.85rem;"
+            onclick="openWhatsApp('Halo AVRIXXX, mau tanya tentang ucapan digital.')">
+            <i class="fab fa-whatsapp"></i>
+            <span>Chat Admin WA</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 AVRIXXX. All rights reserved. Dibuat dengan penuh cinta untuk momen-momen spesial.</p>
+        <p>Koleksi Ucapan Digital — Portofolio Studio Kreatif</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Detail Modal Structure -->
+  <div class="modal-backdrop" id="templateModal">
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose" aria-label="Tutup Modal"><i class="fas fa-times"></i></button>
+
+      <div class="modal-content">
+        <!-- Device Viewport Switcher -->
+        <div class="device-toggle-bar">
+          <button class="device-btn active" data-device="desktop">
+            <i class="fas fa-desktop"></i> Desktop
+          </button>
+          <button class="device-btn" data-device="tablet">
+            <i class="fas fa-tablet-alt"></i> Tablet
+          </button>
+          <button class="device-btn" data-device="mobile">
+            <i class="fas fa-mobile-alt"></i> HP / Mobile
+          </button>
+        </div>
+
+        <!-- Viewport Preview Box -->
+        <div class="viewport-wrapper">
+          <div class="viewport-frame desktop" id="viewportFrame">
+            <img id="modalImage" src="" alt="Pratinjau Live Template">
+          </div>
+        </div>
+
+        <!-- Modal Information Meta -->
+        <div class="modal-info">
+          <div class="modal-header-meta">
+            <h2 class="modal-title" id="modalTitle">Judul Template</h2>
+            <span class="modal-category-badge" id="modalCategory">Kategori</span>
+          </div>
+
+          <p class="modal-desc" id="modalDesc">Deskripsi detail mengenai template ucapan digital.</p>
+
+          <div class="modal-tags" id="modalTags">
+            <!-- Injected dynamically -->
+          </div>
+
+          <div class="modal-footer-actions">
+            <a id="modalOpenBtn" href="#" target="_blank" rel="noopener noreferrer" class="btn-primary"
+              style="padding: 0.85rem 2rem;">
+              <span>Buka Website Live</span>
+              <i class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp Quick Action Button for Mobile -->
+  <a href="#" class="floating-wa-btn" id="floatingWaBtn" aria-label="Chat WhatsApp Admin"
+    onclick="openWhatsApp('Halo AVRIXXX, saya ingin berkonsultasi tentang ucapan digital via WhatsApp.'); return false;">
+    <div class="wa-icon-glow">
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <span class="wa-tooltip">Konsultasi WA</span>
+  </a>
+
+  <!-- JavaScript Scripts -->
+  <script src="js/templates.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>

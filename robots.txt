@@ -1,0 +1,6 @@
+# robots.txt for Google Search Crawlers
+User-agent: *
+Allow: /
+
+# Sitemap Location
+Sitemap: https://avrixx-studio.vercel.app/sitemap.xml
