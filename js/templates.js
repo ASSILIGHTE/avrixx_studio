@@ -44,6 +44,42 @@ const templatesData = [
     "Timeline Komik & Vault Memori",]
   },
   {
+    id: "toy story",
+    name: "toy story",
+    category: "Kejutan",
+    description: "ebsite kejutan romantis bertema Toy Story dengan suasana kamar Andy, karakter mainan interaktif, petualangan dalam toy box, scene romantis, galeri kenangan, pesan cinta, animasi, dan musik latar.",
+    url: "https://toystry-kappa.vercel.app/",
+    image: "assets/images/toy.png",
+    featured: false,
+    tags: ["Tema Toy Story",
+    "Andy’s Room",
+    "Toy Box Interaktif",
+    "Karakter Mainan",
+    "Scene Romantis",
+    "Galeri Kenangan",
+    "Surat Cinta & Musik"]
+  },
+  {
+    id: "Flower",
+    name: "Flower",
+    category: "Romantis",
+    description: "Taman bunga interaktif bertema dongeng peri Thumbelina dengan animasi partikel 3D, galeri kenangan bunga, buket interaktif, mode malam magis, surat cinta, dan musik latar.",
+    url: "https://flower-eight-ruddy.vercel.app/",
+    image: "assets/images/flower.png",
+    featured: false,
+    tags: ["Taman Bunga 3D", "Dongeng Thumbelina", "Buket Interaktif", "Mode Malam Sihir", "Surat Cinta & Musik"]
+  },
+   {
+    id: "Flower",
+    name: "Flower",
+    category: "Romantis",
+    description: "Taman bunga interaktif bertema dongeng peri Thumbelina dengan animasi partikel 3D, galeri kenangan bunga, buket interaktif, mode malam magis, surat cinta, dan musik latar.",
+    url: "https://flower-eight-ruddy.vercel.app/",
+    image: "assets/images/flower.png",
+    featured: false,
+    tags: ["Taman Bunga 3D", "Dongeng Thumbelina", "Buket Interaktif", "Mode Malam Sihir", "Surat Cinta & Musik"]
+  },
+  {
     id: "khusus-untuk-kamu",
     name: "Khusus Untuk Kamu",
     category: "Romantis",
