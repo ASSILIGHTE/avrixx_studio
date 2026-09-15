@@ -47,7 +47,7 @@ const templatesData = [
     id: "toy story",
     name: "toy story",
     category: "Kejutan",
-    description: "ebsite kejutan romantis bertema Toy Story dengan suasana kamar Andy, karakter mainan interaktif, petualangan dalam toy box, scene romantis, galeri kenangan, pesan cinta, animasi, dan musik latar.",
+    description: "website kejutan romantis bertema Toy Story dengan suasana kamar Andy, karakter mainan interaktif, petualangan dalam toy box, scene romantis, galeri kenangan, pesan cinta, animasi, dan musik latar.",
     url: "https://toystry-kappa.vercel.app/",
     image: "assets/images/toy.png",
     featured: false,
