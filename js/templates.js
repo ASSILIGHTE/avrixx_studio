@@ -17,7 +17,24 @@ const templatesData = [
       "Responsif HP"
     ]
   },
-
+{
+  id: "sky-of-us",
+  name: "Sky of Us",
+  category: "Ulang Tahun",
+  description: "Website ucapan ulang tahun romantis dengan konsep langit malam yang menghadirkan pesan cinta, momen spesial, foto kenangan, animasi awan, dan suasana hangat untuk merayakan hari istimewa bersama pasangan.",
+  url: "https://ultah-black.vercel.app/",
+  image: "assets/images/sky_of_us.png",
+  featured: true,
+  tags: [
+    "Tema Langit Malam",
+    "Ucapan Ulang Tahun",
+    "Romantis",
+    "Galeri Foto",
+    "Animasi Awan",
+    "Musik Latar",
+    "Responsif HP"
+  ]
+},
   {
     id: "surprise-doll-box",
     name: "Surprise Doll Box",
@@ -53,7 +70,24 @@ const templatesData = [
       "Responsif HP"
     ]
   },
-
+{
+  id: "a-little-something-for-you",
+  name: "A Little Something For You",
+  category: "Romantis",
+  description: "Website cerita romantis interaktif yang menghadirkan pesan spesial, galeri momen, kartu kenangan yang dapat dibalik, musik latar, dan rangkaian kejutan kecil untuk orang tersayang.",
+  url: "https://bfly-nu.vercel.app/",
+  image: "assets/images/a_little_something_for_you.png",
+  featured: true,
+  tags: [
+    "Interactive Love Story",
+    "Pesan Romantis",
+    "Flip Card",
+    "Galeri Foto",
+    "Musik Latar",
+    "Kejutan Interaktif",
+    "Responsif HP"
+  ]
+},
   {
     id: "spiderman-birthday-surprise",
     name: "Spider-Man Birthday Surprise",
