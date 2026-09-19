@@ -104,7 +104,7 @@ const templatesData = [
     "Romantis",
     "Interaktif"
   ]
-}
+},
   {
     id: "spiderman-birthday-surprise",
     name: "Spider-Man Birthday Surprise",
