@@ -89,6 +89,23 @@ const templatesData = [
   ]
 },
   {
+  id: "happy-birthday-my-favorite-person",
+  name: "Happy Birthday, My Favorite Person",
+  category: "Ulang Tahun",
+  description: "Website ucapan ulang tahun romantis untuk orang tersayang dengan suasana hangat, pesan personal, dan pengalaman digital yang manis.",
+  url: "https://fsle-delta.vercel.app/",
+  image: "assets/images/happy_birthday_my_favorite_person.png",
+  featured: true,
+  tags: [
+    "Birthday",
+    "Ucapan Romantis",
+    "Happy Birthday",
+    "Pesan Personal",
+    "Romantis",
+    "Interaktif"
+  ]
+}
+  {
     id: "spiderman-birthday-surprise",
     name: "Spider-Man Birthday Surprise",
     category: "Ulang Tahun",
