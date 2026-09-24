@@ -1,6 +1,23 @@
 // AVRIXXX - Digital Greeting Collection Data Registry
 const templatesData = [
   {
+  id: "anvrsy",
+  name: "Our Anniversary",
+  category: "Anniversary",
+  description: "Website anniversary romantis yang menghadirkan perjalanan cerita cinta, kumpulan foto kenangan, pesan manis, dan suasana spesial untuk merayakan hari jadi bersama.",
+  url: "https://anvrsy.vercel.app/",
+  image: "assets/images/anv.png",
+  featured: true,
+  tags: [
+    "Anniversary",
+    "Romantis",
+    "Galeri Foto",
+    "Cerita Cinta",
+    "Pesan Manis",
+    "Responsif HP"
+  ]
+},
+  {
     id: "our-little-memories",
     name: "Our Little Memories",
     category: "Kenangan",
