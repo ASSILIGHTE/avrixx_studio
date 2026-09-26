@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const deviceBtns = document.querySelectorAll('.device-btn');
 
   // WhatsApp Admin Number
-  const whatsappNumber = "6285704925946";
+  const whatsappNumber = "6283837799913";
 
   // State Management
   let currentSearchQuery = "";
