@@ -1,6 +1,26 @@
 // AVRIXXX - Digital Greeting Collection Data Registry
 const templatesData = [
   {
+  id: "bfdayy",
+  name: "Happy Boyfriend Day",
+  category: "Boyfriend Day",
+  description: "Website ucapan Boyfriend Day bertema digital scrapbook yang menghadirkan foto kenangan, pesan romantis, love catching game, reward coupons, dan surat cinta spesial untuk pasangan.",
+  url: "https://bfdayy-delta.vercel.app/",
+  image: "assets/images/bfday.png",
+  featured: true,
+  tags: [
+    "Boyfriend Day",
+    "Romantis",
+    "Digital Scrapbook",
+    "Galeri Foto",
+    "Love Game",
+    "Love Letter",
+    "Reward Coupon",
+    "Animasi",
+    "Responsif HP"
+  ]
+},
+  {
   id: "anvrsy",
   name: "Our Anniversary",
   category: "Anniversary",
