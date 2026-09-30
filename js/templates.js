@@ -5,7 +5,7 @@ const templatesData = [
   name: "Happy Boyfriend Day",
   category: "Boyfriend Day",
   description: "Website ucapan Boyfriend Day bertema doodle scrapbook yang menghadirkan pesan manis, galeri foto kenangan, musik spesial, mini game pasangan, kupon cinta rahasia, dan surat cinta untuk pacar.",
-  url: "https://bfdayyyy.vercel.app/",
+  url: "https://bfdacnth-32dgfudzb-assilightes-projects.vercel.app/",
   image: "assets/images/bfdayyyy.png",
   featured: true,
   tags: [
