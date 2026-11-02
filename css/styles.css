@@ -297,6 +297,66 @@ img {
   transform: translateY(-2px);
 }
 
+.btn-tiktok {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.6rem;
+  background: linear-gradient(135deg, #010101 0%, #1a1a1a 50%, #010101 100%);
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  transition: var(--transition-smooth);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(105, 201, 208, 0.2);
+}
+
+.btn-tiktok::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(105, 201, 208, 0.15), rgba(238, 29, 82, 0.15));
+  opacity: 0;
+  transition: var(--transition-smooth);
+  border-radius: inherit;
+}
+
+.btn-tiktok:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.6), 0 0 20px rgba(105, 201, 208, 0.35), 0 0 20px rgba(238, 29, 82, 0.2);
+  border-color: rgba(105, 201, 208, 0.5);
+}
+
+.btn-tiktok:hover::before {
+  opacity: 1;
+}
+
+.btn-tiktok i {
+  font-size: 1rem;
+  position: relative;
+  z-index: 1;
+  background: linear-gradient(135deg, #69c9d0, #ee1d52);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  filter: drop-shadow(0 0 6px rgba(105, 201, 208, 0.6));
+  transition: var(--transition-smooth);
+}
+
+.btn-tiktok:hover i {
+  filter: drop-shadow(0 0 10px rgba(105, 201, 208, 0.9));
+}
+
+.btn-tiktok span {
+  position: relative;
+  z-index: 1;
+}
+
 /* Navigation Actions & Sub-elements */
 .nav-actions {
   display: flex;
@@ -1638,7 +1698,8 @@ img {
   }
 
   .hero-actions .btn-primary,
-  .hero-actions .btn-secondary {
+  .hero-actions .btn-secondary,
+  .hero-actions .btn-tiktok {
     width: 100%;
     justify-content: center;
     padding: 0.85rem 1.5rem;
